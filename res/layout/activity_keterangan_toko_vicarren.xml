@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_background"
+    android:padding="5dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.mahmud.aplikasitoko.KeteranganTokoVicarren" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_vicarren" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vincarren "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f5fcfc"
+                android:text="Satu lagi referensi butik untuk perempuan Jambi.\n
+Vicarren, sebuah butik yang terletak di WTC Jambi.\n
+Butik ini memiliki khas dengan koleksinya yang up to date, glamour dan tentu saja beda dari yang lain.   
+vicarren bisa dikatakan sebagai butik yang sangat focus memberikan sesuatu yang beda kepada pelanggannya.\n
+Kenapa beda? Karena hamper semua koleksinya dipilih langsung oleh vicarren dalam jumlah yang tidak banyak dalam setiap itemnya.\n
+“Tujuannya agar pelanggan merasa percaya diri ketika mengenakan kostum yang dibelinya di butik kita,” lanjut vicarren.\n
+vicarren mengatakan,  selain pakaian muslim dan casual yang mengusung merek Micellerie dan lain-lain. Sementara itu. Di sini juga bisa ditemukan berbagai aksesoris seperti jilbab.\n 
+
+Saat ini, vicarrenmemberikan diskon dari 20% sampai 30% persen untuk item tertentu.\n
+Vicarren merupakan inspirasi busana bagi perempuan Jambi, sangat pas untuk mereka yang membutuhkan koleksi terbaik untuk momen terbaiknya." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_vicarren1" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

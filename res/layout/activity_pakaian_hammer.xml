@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:background="@drawable/icon_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.mahmud.aplikasitoko.PakaianHammer" >
+
+    <TextView
+        android:id="@+id/txtketerangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlistgambar"
+        android:textColor="#f5fcfc"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:text="Klik Gambar Untuk Memperbesar!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridView
+        android:id="@+id/galeryImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtketerangan"
+        android:background="@drawable/background_galery"
+        android:numColumns="4" >
+
+    </GridView>
+
+    <Button
+        android:id="@+id/btnlistgambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/icon_menuutama"
+        android:text="Lihat harga pakaian Hammer" />
+
+</RelativeLayout>

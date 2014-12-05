@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:background="@drawable/icon_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.mahmud.aplikasitoko.PakaianGiordano" >
+
+    <Button
+        android:id="@+id/btnhargagiordano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/icon_menuutama"
+        android:text="Lihat harga Pakaian Giordano" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f5fcfc"
+        android:textStyle="italic"
+        android:layout_below="@+id/btnhargagiordano"
+        android:text="Klik Gambar Untuk memperbesar !" />
+
+    <GridView
+        android:id="@+id/galerygiordano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:background="@drawable/background_galery"
+        android:numColumns="4" >
+    </GridView>
+
+</RelativeLayout>

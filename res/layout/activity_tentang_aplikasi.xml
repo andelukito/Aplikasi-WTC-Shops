@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/icon_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.mahmud.aplikasitoko.TentangAplikasi" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/android" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f8fbfb"
+                android:text="Seiring berkembangnya jaman tentu kita sebagai manusia butuh peralatan yang canggih dan efisien untuk keperluan sehari-hari.Oleh karena itu ada baiknya  menggunakan perangkat dengan sistem operasi ini,karena teknologi android pun sudah berkembang pesat.Mengenai kelebihan dan kekurangan aplikasi ini adalah :\n" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi ini Support :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f8fbfb"
+                android:text="2.8 Android 2.2–2.2.3 Froyo\n
+2.9 Android 2.3–2.3.2 Gingerbread\n
+2.10 Android 2.3.3–2.3.7 Gingerbread\n
+2.11 Android 3.0 Honeycomb\n
+2.12 Android 3.1 Honeycomb\n
+2.13 Android 3.2 Honeycomb\n
+2.14 Android 4.0–4.0.2 Ice Cream Sandwich\n
+2.15 Android 4.0.3–4.0.4 Ice Cream Sandwich\
+2.16 Android 4.1 Jelly Bean\n
+2.17 Android 4.2 Jelly Bean\n
+2.18 Android 4.3 Jelly Bean\n
+2.19 Android 4.4 KitKat " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

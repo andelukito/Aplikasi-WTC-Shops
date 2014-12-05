@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_background"
+    android:padding="5dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.mahmud.aplikasitoko.KeteranganTokogiordano" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_giordano" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giordano"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f5fcfc"
+                android:text="Giordano didirikan di WTC Jambi pada tahun 2000 dan sekarang menjadi salah satu pengecer internasional terkemuka di dunia laki-laki, perempuan dan pakaian anak-anak dan aksesoris.\n
+Dengan berfokus tanpa henti pada lima nilai-nilai bisnis korporasi Kualitas, Pengetahuan, inovasi, layanan dan Kesederhanaan (QKISS), merek ini telah berkembang dari toko Hong Kong yang tunggal pada tahun 1981 untuk jaringan ini lebih dari 2.500 toko dan counter di lebih dari 40 negara di Asia-Pasifik dan Timur Tengah.\n
+Merek perusahaan Giordano,Giordano SMP,Giordano wanita,Konsep One,BSX\n
+hari ini identik dengan kualitas unggul, nilai dan layanan\n
+Kisah sukses global Giordano telah tampil sebagai studi kasus di Harvard Business School.\n
+Perusahaan juga telah menerima pengakuan internasional atas komitmennya terhadap tata kelola perusahaan.\n\n" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Merek Kami"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_giordano1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f5fcfc"
+                android:text="Merek ini memiliki sistem manajemen persediaan sangat efisien dan efekti  yang menghubungkan semua toko dan pasar ritel.\n
+Hal ini memungkinkan semua pasar memiliki informasi real time dan memastikan bahwa itu mengelola sebuah DOI optimal (hari Inventory).\n
+Tindakan korektif dapat diambil segera untuk setiap variasi dari standar yang ditetapkan, sehingga memastikan penggunaan sumber daya yang optimal baik secara regional maupun global.\n
+ Model bisnis memastikan bahwa proses yang sederhana dan efisien sehingga menciptakan nilai bagi pelanggan.\n
+Hal ini dari Kesederhanaan bahwa semua nilai-nilai lain mengikuti. \n
+Dengan menjaganya agar tetap sederhana, Anda menjadi lebih gesit untuk merampingkan operasi Anda dan memungkinkan Anda kecepatan untuk melakukan perubahan jika diperlukan.\n
+Semua di atas memastikan bahwa Giordano mampu mempertahankan daya saingnya dan dapat menghadapi tantangan sehari-hari dari dunia ritel.\n\n"
+ />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Produk"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f5fcfc"
+                android:text="Kesenangan sederhana dari dasar busana - yang merupakan kekuatan pendorong dari Giordano. \n
+Styling Giordano selalu berputar di sekitar apa yang relevan, penting dan fungsional.\n
+Penampilan santai dan barang dagangan dapat dengan mudah dicampur bersama-sama untuk menyesuaikan setiap kesempatan, mood atau place.Customers dapat yakin  merasa baik dan tampak hebat.\n
+Tim pengembangan produk bekerja terus menerus pada inovasi produk untuk memberikan diferensiasi produk dan disempurnakan dihargai untuk pelanggan.\n
+ Ada proses yang berkesinambungan inovasi menjaga di pikiran pelanggan dan kebutuhan pasar.\n\n
+" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Periklanan dan Pemasaran "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f5fcfc"
+                android:text="Giordano selalu menjadi pemimpin dalam teknik pemasaran dan periklanan yang inovatif. \n
+Kreativitas dan diferensiasi adalah kunci dan Giordano bertujuan setiap saat untuk membawa sesuatu yang baru ke wilayah tersebut.\n
+Alat pemasaran merek terkuat adalah toko, yang secara strategis terletak di sebagian besar mal, kawasan perumahan dan kawasan bisnis agar mudah diakses oleh pelanggannya.\n
+Sementara saluran normal pemasaran dan periklanan yang digunakan oleh merek, toko-toko menjadi salah satu alat paling ampuh untuk berkomunikasi dan berinteraksi secara langsung dengan pelanggan.\n
+Toko yang dirancang dengan baik, display kreatif, visual merchandising yang kuat dan menyimpan suasana, semua memastikan bahwa pelanggan memiliki pengalaman belanja yang menyenangkan dan tertarik untuk merek.\n
+The perusahaan web-situs yang digunakan secara efektif untuk berkomunikasi dengan pelanggan pada barang dagangan baru, kampanye musiman, promosi, dan berbagai kegiatan lainnya.\n
+Newsletter dan mailer dikirim untuk memastikan komunikasi rutin dengan pelanggan.\n
+Perencanaan yang matang memastikan bahwa semua metode komunikasi pemasaran yang disesuaikan dengan konsisten memposisikan merek di pasar.\n\n
+" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visi dan Misi"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f5fcfc"
+                android:text="Visi Giordano adalah :\n
+Menjadi Terbesar dan Dunia Merek Terbaik di Pakaian Retailing Brand Dunia adalah merek yang tidak memiliki pusat, tidak mengenal batas-batas negara ini adalah cross-budaya dan dimiliki oleh konsumen lokal ini adalah benar-benar  Think Global - Act Local Skenario Setiap pasar menyesuaikan dengan kebutuhan pelanggan mereka, keinginan dan budaya, tetapi semua memelihara kosmopolitan, internasional dan kontemporer sentuh.\n\n
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

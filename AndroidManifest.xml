@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.mahmud.aplikasitoko"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    <supports-screens 
+        android:largeScreens="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUtama"
+            android:label="@string/title_activity_menu_utama"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProfilPembuat"
+            android:icon="@drawable/icon_profil"
+            android:label="@string/title_activity_profil_pembuat"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NamaToko"
+            android:label="@string/title_activity_nama_toko" >
+        </activity>
+        <activity
+            android:name=".CostumListview"
+            android:label="@string/title_activity_costum_listview" >
+        </activity>
+        <activity
+            android:name=".KeteranganTokoHammer"
+            android:icon="@drawable/icon_hammer"
+            android:label="@string/title_activity_keterangan_toko_hammer" >
+        </activity>
+        <activity
+            android:name=".KeteranganTokogiordano"
+            android:icon="@drawable/icon_girdiano"
+            android:label="@string/title_activity_keterangan_tokogiordano" >
+        </activity>
+        <activity
+            android:name=".KeteranganTokoVicarren"
+            android:icon="@drawable/icon_vicreen"
+            android:label="@string/title_activity_keterangan_toko_vicarren" >
+        </activity>
+        <activity
+            android:name=".CostumListview2"
+            android:label="@string/title_activity_costum_listview2" >
+        </activity>
+        <activity
+            android:name=".JenisPakaian"
+            android:icon="@drawable/icon_pakaian"
+            android:label="@string/title_activity_jenis_pakaian" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuUtama" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.DETAIL" />
+
+                <category android:name="android.intent.category.DETAIL" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PakaianHammer"
+            android:icon="@drawable/icon_pakaian"
+            android:label="@string/title_activity_pakaian_hammer" >
+        </activity>
+        <activity
+            android:name=".DetailHargaHammer"
+            android:label="@string/title_activity_detail_harga_hammer"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ListHargaHammer"
+            android:label="@string/title_activity_list_harga_hammer"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".CostumlistHargaHammer"
+            android:label="@string/title_activity_costumlist_harga_hammer" >
+        </activity>
+        <activity
+            android:name=".PakaianGiordano"
+            android:icon="@drawable/icon_pakaian"
+            android:label="@string/title_activity_pakaian_giordano" >
+        </activity>
+        <activity
+            android:name=".DetailGiordano"
+            android:label="@string/title_activity_detail_giordano"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ListHargaGiordano"
+            android:label="@string/title_activity_list_harga_giordano"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".CostumListHargaGiordano"
+            android:label="@string/title_activity_costum_list_harga_giordano" >
+        </activity>
+        <activity
+            android:name=".PakaianVincarren"
+            android:icon="@drawable/icon_pakaian"
+            android:label="@string/title_activity_pakaian_vincarren" >
+        </activity>
+        <activity
+            android:name=".ListHargaVincarren"
+            android:label="@string/title_activity_list_harga_vincarren"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".CostumListHargaVincarren"
+            android:label="@string/title_activity_costum_list_harga_vincarren" >
+        </activity>
+        <activity
+            android:name=".DetailVincarren"
+            android:label="@string/title_activity_detail_vincarren"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".TentangAplikasi"
+            android:icon="@drawable/icon_tentang"
+            android:label="@string/title_activity_tentang_aplikasi" >
+        </activity>
+        <activity
+            android:name=".Bantuan"
+            android:icon="@drawable/icon_bantuan"
+            android:label="@string/title_activity_bantuan" >
+        </activity>
+        <activity
+            android:name=".CostumMenuutama"
+            android:label="@string/title_activity_costum_menuutama" >
+        </activity>
+    </application>
+
+</manifest>
